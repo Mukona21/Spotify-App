@@ -1,0 +1,68 @@
+.artists-cont {
+    margin: 70px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.artists-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artists-top h1 {
+    font-size: 35px;
+}
+
+.toggle {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.toggle button {
+    padding: 9px 25px;
+    border-radius: 9px;
+    color: rgba(240, 248, 255, 0.68);
+    font-weight: 550;
+    background-color: #2b2a2a;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle button:focus {
+    border-bottom: 3px solid rgb(0, 194, 0);
+    ;
+}
+
+
+
+
+
+.artists-bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.artist-ind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.artist-ind .avatar {
+    box-shadow: none;
+}
+
+.artist-ind .name {
+    font-size: 21px;
+    font-weight: 550;
+    color: rgba(240, 248, 255, 0.868);
+    text-shadow: none;
+}

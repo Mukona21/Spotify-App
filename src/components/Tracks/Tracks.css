@@ -1,0 +1,62 @@
+.tracks-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.track-ind {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #2b2a2a;
+    padding-right: 20px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.sub-div-track {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.track-avatar {
+    height: 70px;
+    width: 70px;
+}
+
+.track-avatar img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.track-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 11px;
+}
+
+.track-name {
+    font-size: 19px;
+    font-weight: 550;
+    color: aliceblue;
+}
+
+.track-summ{
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.792);
+}
+
+.dur{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(89, 255, 0, 0.4);
+}
